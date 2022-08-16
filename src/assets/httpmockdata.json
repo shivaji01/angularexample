@@ -1,0 +1,31 @@
+{
+    "name": "shivaji",
+    "Address": "karad",
+    "picode": 415108,
+    "job":[{
+            "profile": "Angular developer",
+            "Salary": 100000,
+            "company": "google"
+    },
+    {
+        "profile": "Java developer",
+        "Salary": 200000,
+        "company": "TCS "
+    },
+    {
+        "profile": "Angular developer",
+        "Salary": 300000,
+        "company": "google"
+},
+{
+    "profile": "Java developer",
+    "Salary": 240000,
+    "company": "TCS "
+}
+
+]
+
+
+
+
+}

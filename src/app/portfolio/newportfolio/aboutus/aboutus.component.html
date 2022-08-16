@@ -1,0 +1,15 @@
+<body background="/assets/bgimg.jpg" style="color:rgb(253, 7, 179)" >
+<app-navbar></app-navbar>
+<p>aboutus works!</p>
+<!-- below code for json data show on browser
+it must requires for loop to show data on ui
+and it must have json object array -->
+<div *ngFor="let item of showdata" class="marginside">
+    <p>{{item.aboutus}}</p>
+
+    <!-- to uppercase or lowercase text case -->
+    <input type="text" class="case" name="">
+    
+</div>
+</body>
+

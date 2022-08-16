@@ -1,0 +1,17 @@
+<p>loginfolio works!</p>
+<div class="container">
+<div class="styleinfo">
+    <form [formGroup]="formlogin">
+        <h2>Login Form</h2>
+        <div>
+            <label>Username:</label>
+            <input type="text" placeholder="uname" formControlName="uname">
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="text" placeholder="password" formControlName="password">
+        </div>
+        <button (click)="loginform()">Login</button>
+    </form>
+</div>
+</div>

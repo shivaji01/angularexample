@@ -1,0 +1,13 @@
+<p>ngswitch works!</p>
+
+
+<div [ngSwitch]="text">
+    <input type="text" name="text" #text>
+    <div *ngSwitchCase="'india'"> India is showed</div>
+    <div *ngSwitchCase="'japan'"> japan is showed</div>
+    <div *ngSwitchCase="'dubai'"> dubai is showed</div>
+    <div *ngSwitchCase="'china'"> china is showed</div>
+    <div *ngSwitchDefault> no country is showed</div>
+    <button (click)="show(text)">show value</button>
+</div>
+{{text}}

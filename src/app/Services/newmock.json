@@ -1,0 +1,10 @@
+{
+   "username": "shivaji",
+   "password":"12345",
+   "address": "karad",
+   "mobile" : 12345,
+   "emailid": "sdk3399@gmail.com",
+   "education": "MCA",
+   "experience": 4,
+   "companyname":"reportcrux"
+}

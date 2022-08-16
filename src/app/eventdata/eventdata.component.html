@@ -1,0 +1,17 @@
+<p>eventdata works!</p>
+
+<button (click)="OnClick()">on click print data </button>
+<p>{{msg}}</p>
+<!-- on button click event print dataon ui which data is present on ts file -->
+<br>******************************<br>
+<input type="text" value="inputtext" (click)="ontextclick($event)">
+
+<p>{{msgtxt}}</p>
+<!-- on textbox click event data printed on console -->
+<br>******************************<br>
+<button value="Laptop" (click)="AddToCart($event)">Laptops</button>
+<button value="TV" (click)="AddToCart($event)">TVs</button>
+<button value="Washine Machine" (click)="AddToCart($event)">Washine Machines</button>
+<br>
+<p>{{msgcart}}</p>
+<!-- on button click item is printed  -->

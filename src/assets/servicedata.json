@@ -1,0 +1,22 @@
+[
+{
+  "firstname":"shivaji",
+  "address":"karad",
+  "mobile":545351
+},
+{
+    "firstname":"sagar",
+  "address":"pune",
+  "mobile":565151
+},
+{
+  "firstname":"bhavesh",
+  "address":"nagar",
+  "mobile":87984
+},
+{
+    "firstname":"kajal",
+    "address":"pune",
+    "mobile":46546
+  }
+]

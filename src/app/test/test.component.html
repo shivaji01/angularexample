@@ -1,0 +1,16 @@
+<p>test works!</p>
+<input type="text" #uname [(ngModel)]="name">
+<button (click)="OnSubmit(name)">Submit</button>
+<br>
+<p>Form json:{{name}}</p>
+<p>Form json:{{name | json}}</p>
+
+
+<select>
+    <option value="1">None</option>
+    <option value="2">Shivaji</option>
+    <option value="3">Bhavesh</option>
+    <option value="4">Kajal</option>
+
+</select>
+

@@ -1,0 +1,33 @@
+{
+    "Experience":
+    [
+        {
+            "Degree":"SSC",
+            "College":"KMR Shere",
+            "Marks":"66.50%",
+            "passingyear":2006,
+            "University":"Kolhapur"
+        },
+        {
+            "Degree":"HSC",
+            "College":"KMR Rethare",
+            "Marks":"66.50%",
+            "passingyear":2008,
+            "University":"Kolhapur"
+        },
+        {
+            "Degree":"BCA",
+            "College":"SGM College karad",
+            "Marks":"66.50%",
+            "passingyear":2012,
+            "University":"Kolhapur"
+        },
+        {
+            "Degree":"MCA",
+            "College":"KMR Wathar",
+            "Marks":"66.50%",
+            "passingyear":2015,
+            "University":"Kolhapur"
+        }
+    ]
+}

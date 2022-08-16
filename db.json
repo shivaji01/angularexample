@@ -1,0 +1,60 @@
+{
+  "Products": [
+    {
+      "Username": "fghf",
+      "Productname": "fgfh",
+      "Description": "yuiyiu",
+      "Price": "hjkhk",
+      "Quantity": "yuo7o",
+      "id": 3
+    },
+    {
+      "Username": "aaa",
+      "Productname": "ssss",
+      "Description": "gg",
+      "Price": "3",
+      "Quantity": "334",
+      "id": 11
+    },
+    {
+      "Username": "sd",
+      "Productname": "sad",
+      "Description": "wee",
+      "Price": "wqe",
+      "Quantity": "qe",
+      "id": 12
+    },
+    {
+      "id": 14,
+      "Username": "Shivaji",
+      "Productname": "laptop",
+      "Description": "new brand",
+      "Price": "60000",
+      "Quantity": "111"
+    },
+    {
+      "Username": "dish",
+      "Productname": "tv",
+      "Description": "tata",
+      "Price": "5000",
+      "Quantity": "10",
+      "id": 15
+    },
+    {
+      "id": 17,
+      "Username": "jnn",
+      "Productname": "mmm",
+      "Description": "jnjkn",
+      "Price": "100000",
+      "Quantity": "11111"
+    },
+    {
+      "id": 18,
+      "Username": "rrrrr",
+      "Productname": "tttttttttttt",
+      "Description": "tttttttttttttttttttttt",
+      "Price": "ttttttttttttttttttttttt",
+      "Quantity": "nnnnnnnnnnn"
+    }
+  ]
+}

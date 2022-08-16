@@ -1,0 +1,46 @@
+<p>reactivenew works!</p>
+<div>
+    <form>
+        <div class="form-group">
+            <label>UserName</label>
+            <input class="form-control" name="username" [formControl]="username" required>
+        </div>
+        <div [hidden]="username.valid || username.pristine" class="alert alert-danger">
+            User Name is required
+        </div>
+        <button (click)="SubmitForm()" style="margin: 10px;">Submit</button>
+        <button (click)="updateForm()"> Update </button>
+    </form>
+    </div>
+    
+<div id="heading">studentdetails form details...</div>
+
+    <div>
+        <form [formGroup]="Studdetails">
+            <div>
+                <label>Username</label>
+                <input class="form-control" name="username" formControlName="username" required>
+            </div>
+           <!-- <div [hidden]="username.valid || username.pristine" class="alert alert-danger">Username required</div> -->
+                
+               <div><label for="Course">Course</label>
+                <input class="form-control" name="course" formControlName="course" required>
+            </div>
+            <!-- <div [hidden]="course.valid || course.pristine" class="alert alert-danger">Course deatils required</div> -->
+            <div>
+                <label for="College">College</label>
+                <input class="form-control" name="college" formControlName="college" required>
+            </div>
+    
+            <!-- <div [hidden]="college.valid || college.pristine" class="alert alert-danger">college deatils required</div> -->
+            <div>
+                <div>
+                    <label for="unversity">university</label>
+                    <input class="form-control" name="university" formControlName="university" required>
+                </div>
+            </div>
+            <!-- <div [hidden]="university.valid || university.dirty" class="alert alert-danger">university deatils required </div>          -->
+             <button (click)="Onsubmitdata()">Submit</button>   
+        </form>
+    </div>
+    <button mat-button color="primary" >Warn</button>

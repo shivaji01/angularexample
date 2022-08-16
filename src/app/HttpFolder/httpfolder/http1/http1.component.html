@@ -1,0 +1,25 @@
+<p>http1 works!</p>
+
+<!-- below code is for to fetch data from json and show it when 
+    user click on button thow all data in tabular format -->
+<button (click)="Showtabledata()">Show table data</button>
+
+
+<table *ngIf="tableshow">
+    <tr>
+    <th>Profile</th>
+    <th>Salary</th>
+    <th>Company</th>
+</tr>
+<tr *ngFor="let item of profileinfo">
+    <td>{{item?.profile}}</td>
+    <td>{{item?.Salary}}</td>
+    <td>{{item?.company}}</td>
+</tr>
+</table>
+<!-- above code works oks
+1.create json file
+2.create service file and create method to fetch data from json
+3.add code in ts file to fetch data from service method and add data in seperate variable
+4. create html table in for loop to in table format
+-->

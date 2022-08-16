@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<p>experience works!</p>
+<div class="container">
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>College</th>
+            <th>Marks</th>
+            <th>passing Year</th>
+            <th>University</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let i of tabledata ; index as a;even as e; odd as o; ">
+
+                <td>{{ i.Degree }}</td>
+                <td>{{ i.College }}</td>
+                <td>{{ i.Marks }}</td>
+                <td>{{ i.passingYear }}</td>
+                <td>{{ i.University }}</td>
+                <td><Button type="button" routerLink="/adddegree">Add New</Button></td>
+           
+        </tr>
+    </table>
+</div>

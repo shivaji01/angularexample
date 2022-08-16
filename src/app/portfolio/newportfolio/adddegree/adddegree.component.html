@@ -1,0 +1,28 @@
+<p>adddegree works!</p>
+<div>
+    <form class="container" [formGroup]="degreeform">
+        <div>
+            <label>Degree</label>
+            <input type="text" formControlName="Degree" name="Degree">
+        </div>
+        <div>
+            <label>College</label>
+            <input type="text" formControlName="College" name="College">
+        </div>
+        <div>
+            <label>Marks</label>
+            <input type="text" formControlName="Marks" name="Marks">
+        </div>
+        <div>
+            <label>passing Year</label>
+            <input type="text" formControlName="passingyear" name="passingyear">
+        </div>
+        <div>
+            <label>University</label>
+            <input type="text" formControlName="University" name="University">
+        </div>
+        <div>
+            <button (click)="Adddegree(degreeform)">Add </button>
+        </div>
+    </form>
+</div>
